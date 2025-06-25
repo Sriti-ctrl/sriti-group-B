@@ -1,0 +1,29 @@
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{lipsum} % For dummy text
+
+% Header and Footer
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\lhead{\textbf{Document Title}} % Header
+\cfoot{\textit{Institute Name} \hfill \thepage} % Footer
+
+\title{Document Title}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Section A}
+\lipsum[1] % Dummy paragraph
+
+\section*{Section B}
+\lipsum[2] % Dummy paragraph
+
+\end{document}
+
